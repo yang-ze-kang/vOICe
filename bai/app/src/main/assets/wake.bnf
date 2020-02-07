@@ -1,0 +1,8 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar wake;
+!slot <callCmd>;
+!slot <contact>;
+!start <callStart>;
+<callStart>:[<callCmd>]<callName>;
+<callCmd>:你好阿离;
+<callName>:开启导航|徐绍越|北京|天津|打电话给张三;

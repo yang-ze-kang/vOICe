@@ -1,0 +1,6 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar function;
+!slot <callName>;
+!start <callStart>;
+<callStart>:<callName>;
+<callName>:开启导航|我要读书|继续读书|徐绍越|退出导航|放首歌|开启识别|退出识别;
